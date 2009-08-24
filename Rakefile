@@ -9,5 +9,5 @@ task :build do
 end
 
 task :preview => :build do
-  system "open -a Firefox.app build/clippy.swf"
+  system "firefox build/clippy.swf"
 end
